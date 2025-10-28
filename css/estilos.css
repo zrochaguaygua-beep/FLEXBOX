@@ -1,0 +1,116 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+  background-color: #f5f5f5;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.seccion {
+  background-color: white;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.seccion h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.ej1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(111, 219, 165);
+  height: 200px;
+}
+.ej1 div {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.ej2 {
+  display: flex;
+  background-color: lightblue;
+}
+.ej2 div {
+  background-color: #64b89c;
+  margin: 10px;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+}
+.ej2 div:nth-child(2) {
+  flex: 2;
+  background-color: rgb(156, 233, 149);
+}
+.ej3 {
+  display: flex;
+  background-color: lightblue;
+}
+.ej3 .menu {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: skyblue;
+}
+.ej3 .menu div {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.ej3 > div:last-child {
+  flex: 1;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ej4 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 auto; /* centramos la tarjeta */
+}
+.ej4 .titulo {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.ej4 .cuerpo {
+  text-align: center;
+  padding: 20px;
+}
+.ej4 .pie {
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px;
+}
+.ej5 {
+  display: flex;
+  background-color: lightgray;
+  height: 250px;
+}
+.ej5 .izquierda {
+  flex: 1;
+  background-color: teal;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ej5 .derecha {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.ej5 .derecha div {
+  flex: 1;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
